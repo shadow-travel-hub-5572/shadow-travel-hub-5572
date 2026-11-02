@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shadow Travel Hub 5572</title>
+<meta name="description" content="Ooty Travels - Ooty to Coimbatore cab service and sightseeing trips. Call or WhatsApp Shadow Travel Hub 5572 to book.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--green:#0f6b2c;--green-dark:#0a4a1e;--gold:#e0a526;--ink:#111;--soft:#f3f8f3;--text:#333}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Poppins',Arial,sans-serif;color:var(--text);line-height:1.6;background:#fff}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+section{padding:60px 0}
+h2{font-size:1.9rem;color:var(--ink);margin-bottom:8px;line-height:1.25}
+.sub{color:#666;margin-bottom:30px;max-width:560px}
+
+header{position:sticky;top:0;z-index:50;background:var(--ink);color:#fff}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:12px 20px;max-width:1100px;margin:0 auto}
+.logo{font-weight:800;font-size:1.1rem;line-height:1.2}
+.logo span{color:var(--gold)}
+.logo small{display:block;font-weight:500;font-size:.75rem;color:#bbb}
+nav ul{display:flex;gap:22px;list-style:none}
+nav a{font-weight:500;font-size:.95rem}
+nav a:hover{color:var(--gold)}
+.menu-btn{display:none;background:none;border:0;color:#fff;font-size:1.6rem;cursor:pointer}
+
+.hero{background:linear-gradient(rgba(0,0,0,.55),rgba(10,74,30,.75)),linear-gradient(135deg,#0a4a1e,#1c8a45);color:#fff;padding:90px 0 80px}
+.hero .brand{color:var(--gold);font-weight:600;margin-bottom:10px}
+.hero h1{font-size:2.6rem;line-height:1.15;max-width:640px;font-weight:800}
+.hero p{margin:16px 0 28px;max-width:520px;font-size:1.05rem;color:#e6f2e8}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 24px;border-radius:50px;font-weight:600;border:2px solid transparent;cursor:pointer;font-family:inherit;font-size:1rem}
+.btn-gold{background:var(--gold);color:#111}
+.btn-wa{background:#25d366;color:#fff}
+.btn-line{border-color:#fff;color:#fff}
+.btn:hover{opacity:.9}
+
+.about{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center}
+.about-box{background:var(--soft);border-radius:20px;padding:28px}
+.about-box li{list-style:none;margin:10px 0;font-weight:500}
+.about-box li::before{content:"\1F697  "}
+
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.card{background:#fff;border:1px solid #e3ece4;border-radius:20px;padding:26px 22px;box-shadow:0 4px 14px rgba(0,0,0,.05)}
+.card .ic{font-size:2rem;margin-bottom:8px}
+.card h3{color:var(--green);margin-bottom:6px;font-size:1.15rem}
+.sights{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.sights span{background:var(--green);color:#fff;padding:8px 18px;border-radius:50px;font-weight:500;font-size:.92rem}
+
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}
+.gallery figure{border-radius:20px;overflow:hidden;background:#dfe9e0;aspect-ratio:4/3;position:relative}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .3s}
+.gallery figure:hover img{transform:scale(1.05)}
+.gallery .ph{position:absolute;inset:0;display:none;align-items:center;justify-content:center;color:#5a6e5d;font-weight:600;text-align:center;padding:10px}
+
+.rating-top{display:flex;align-items:center;gap:22px;flex-wrap:wrap;margin-bottom:30px}
+.big{font-size:3.4rem;font-weight:800;color:var(--ink);line-height:1}
+.stars{color:var(--gold);font-size:1.4rem;letter-spacing:2px}
+.rating-top small{color:#666;display:block}
+.review{background:#fff;border:1px solid #e3ece4;border-radius:20px;padding:22px}
+.review p{margin:8px 0 12px}
+.review b{color:var(--green-dark)}
+.review small{color:#888}
+
+.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.contact-grid a,.contact-grid div{background:var(--soft);border-radius:18px;padding:20px;display:block}
+.contact-grid strong{display:block;color:var(--green);margin-bottom:2px}
+.contact-grid span{word-break:break-all}
+
+footer{background:#000;color:#fff;padding:50px 0 30px}
+.foot{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:30px}
+footer h4{color:#2fb856;font-size:1.2rem;margin-bottom:12px}
+footer li{list-style:none;margin:8px 0}
+footer li::before{content:"\1F697  "}
+footer p{margin:6px 0}
+.copy{text-align:center;color:#999;font-size:.85rem;margin-top:30px;border-top:1px solid #222;padding-top:18px}
+
+.float{position:fixed;right:16px;bottom:16px;z-index:60;display:flex;align-items:center;gap:8px}
+.float .tag{background:#fff;padding:8px 16px;border-radius:50px;box-shadow:0 4px 14px rgba(0,0,0,.2);font-size:.9rem}
+.float .dot{width:56px;height:56px;border-radius:50%;background:#25d366;color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.6rem;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+
+@media(max-width:760px){
+  .menu-btn{display:block}
+  nav ul{display:none;position:absolute;top:100%;left:0;right:0;background:var(--ink);flex-direction:column;padding:16px 20px;gap:14px}
+  nav ul.open{display:flex}
+  .hero h1{font-size:2rem}
+  .about{grid-template-columns:1fr}
+  h2{font-size:1.6rem}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <a href="#home" class="logo">Shadow Travel Hub <span>5572</span><small>Ooty Travels</small></a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu">&#9776;</button>
+    <nav>
+      <ul id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" id="home">
+  <div class="wrap">
+    <div class="brand">Ooty Travels</div>
+    <h1>Ooty to Coimbatore, and every road in between</h1>
+    <p>Safe, comfortable cab rides with friendly drivers. Airport transfers, outstation trips and sightseeing from Ooty Coimbatore.</p>
+    <div class="btns">
+      <a class="btn btn-gold" href="tel:+919003296620">Call now</a>
+      <a class="btn btn-wa" href="https://wa.me/918904224229?text=Hi%20Ooty%20Travels%2C%20I%20want%20to%20book%20a%20cab." target="_blank" rel="noopener">WhatsApp us</a>
+      <a class="btn btn-line" href="#reviews">See our ratings</a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap about">
+    <div>
+      <h2>Memorable journeys start here</h2>
+      <p class="sub" style="margin-bottom:0">At Ooty Travels (Shadow Travel Hub 5572), we focus on safe, comfortable and reliable travel for every customer. Our team gives you timely service, clear pricing and well-maintained vehicles for every trip. With friendly support and professional drivers, we make every journey smooth and stress-free.</p>
+    </div>
+    <div class="about-box">
+      <ul>
+        <li>Friendly customer support</li>
+        <li>On-time pickup and drop service</li>
+        <li>Clear pricing</li>
+        <li>Well-maintained vehicles</li>
+        <li>Professional drivers</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="services" style="background:var(--soft)">
+  <div class="wrap">
+    <h2>Our services</h2>
+    <p class="sub">Main route: Ooty to Coimbatore. Ooty Travels also covers many other places on request.</p>
+    <div class="cards">
+      <div class="card"><div class="ic">&#128205;</div><h3>Address pickup</h3><p>We pick you up from your door and drop you at your destination.</p></div>
+      <div class="card"><div class="ic">&#9992;&#65039;</div><h3>Airport transfer</h3><p>Coimbatore airport pickup and drop at any time.</p></div>
+      <div class="card"><div class="ic">&#128652;</div><h3>Ooty to Coimbatore</h3><p>Comfortable one-way and round trips on our main route.</p></div>
+      <div class="card"><div class="ic">&#128106;</div><h3>Group and family trips</h3><p>Cars and vans for families and groups.</p></div>
+    </div>
+    <h3 style="margin-top:34px;color:var(--ink)">Sightseeing packages</h3>
+    <div class="sights">
+      <span>Coonoor sightseeing</span>
+      <span>Avalanche sightseeing</span>
+      <span>Kodanadu sightseeing</span>
+      <span>Ooty local sightseeing</span>
+      <span>Mudumalai sightseeing</span>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="wrap">
+    <h2>Our cars</h2>
+    <p class="sub">Clean, well-maintained Ooty Travels cars for your trip.</p>
+    <div class="gallery">
+      <figure><img src="images/car1.jpg" alt="Ooty Travels car 1" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="ph">Add images/car1.jpg</div></figure>
+      <figure><img src="images/car2.jpg" alt="Ooty Travels car 2" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="ph">Add images/car2.jpg</div></figure>
+      <figure><img src="images/car3.jpg" alt="Ooty Travels car 3" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="ph">Add images/car3.jpg</div></figure>
+      <figure><img src="images/car4.jpg" alt="Ooty Travels car 4" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="ph">Add images/car4.jpg</div></figure>
+      <figure><img src="images/car5.jpg" alt="Ooty Travels car 5" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><div class="ph">Add images/car5.jpg</div></figure>
+    </div>
+  </div>
+</section>
+
+<section id="reviews" style="background:var(--soft)">
+  <div class="wrap">
+    <h2>Customer ratings</h2>
+    <p class="sub">What our customers say about their trips with Ooty Travels.</p>
+    <div class="rating-top">
+      <div class="big" id="avg">0.0</div>
+      <div>
+        <div class="stars" id="avgStars">&#9734;&#9734;&#9734;&#9734;&#9734;</div>
+        <small id="count">0 ratings</small>
+      </div>
+    </div>
+    <div class="cards" id="reviewList"></div>
+    <div class="btns" style="margin-top:26px">
+      <a class="btn btn-gold" href="https://wa.me/918904224229?text=Hi%2C%20I%20want%20to%20share%20my%20feedback%20for%20Ooty%20Travels." target="_blank" rel="noopener">Share your feedback</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <h2>Contact us</h2>
+    <p class="sub">Call, WhatsApp or message Ooty Travels to book your cab.</p>
+    <div class="contact-grid">
+      <a href="tel:+919003296620"><strong>&#128222; Call</strong><span>+91 90032 96620</span></a>
+      <a href="https://wa.me/918904224229" target="_blank" rel="noopener"><strong>&#128172; WhatsApp</strong><span>+91 89042 24229</span></a>
+      <a href="https://www.instagram.com/shadow_travel_hub_5572" target="_blank" rel="noopener"><strong>&#128247; Instagram</strong><span>@shadow_travel_hub_5572</span></a>
+      <a href="mailto:shadowtravelhub5572@gmail.com"><strong>&#9993;&#65039; Email</strong><span>shadowtravelhub5572@gmail.com</span></a>
+      <div><strong>&#128205; Address</strong><span>Ooty Coimbatore</span></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Types of service</h4>
+        <ul>
+          <li>Coonoor sightseeing</li>
+          <li>Avalanche sightseeing</li>
+          <li>Kodanadu sightseeing</li>
+          <li>Ooty local sightseeing</li>
+          <li>Mudumalai sightseeing</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact details</h4>
+        <p>&#128222; +91 90032 96620</p>
+        <p>&#128172; +91 89042 24229 (WhatsApp)</p>
+        <p>&#9993;&#65039; shadowtravelhub5572@gmail.com</p>
+        <p>&#128205; Ooty Coimbatore</p>
+        <p>&#128247; @shadow_travel_hub_5572</p>
+      </div>
+    </div>
+    <div class="copy">&copy; <span id="yr"></span> Ooty Travels | Shadow Travel Hub 5572. All rights reserved.</div>
+  </div>
+</footer>
+
+<a class="float" href="https://wa.me/918904224229" target="_blank" rel="noopener" aria-label="Contact Ooty Travels on WhatsApp">
+  <span class="tag">Contact us</span><span class="dot">&#128172;</span>
+</a>
+
+<script>
+/* ===== REVIEWS =====
+   Add every real customer review here. Average rating and total
+   count update automatically. rating = 1 to 5.
+   Replace the sample reviews with real ones. */
+var reviews = [
+  { name: "Customer name", rating: 5, text: "Replace this with a real review from your customer.", date: "Nov 2026" },
+  { name: "Customer name", rating: 5, text: "Replace this with a real review from your customer.", date: "Nov 2026" },
+  { name: "Customer name", rating: 4, text: "Replace this with a real review from your customer.", date: "Nov 2026" }
+];
+
+function starText(n){
+  var s = "";
+  for (var i = 1; i <= 5; i++) s += (i <= Math.round(n)) ? "\u2605" : "\u2606";
+  return s;
+}
+function esc(t){
+  var d = document.createElement("div");
+  d.textContent = t;
+  return d.innerHTML;
+}
+(function showReviews(){
+  var total = reviews.length, sum = 0, html = "";
+  reviews.forEach(function(r){
+    sum += r.rating;
+    html += '<div class="review"><div class="stars">' + starText(r.rating) + '</div><p>' +
+            esc(r.text) + '</p><b>' + esc(r.name) + '</b> <small>&middot; ' + esc(r.date) + '</small></div>';
+  });
+  var avg = total ? (sum / total) : 0;
+  document.getElementById("avg").textContent = avg.toFixed(1);
+  document.getElementById("avgStars").textContent = starText(avg);
+  document.getElementById("count").textContent = total + (total === 1 ? " rating" : " ratings");
+  document.getElementById("reviewList").innerHTML = html;
+})();
+
+var menu = document.getElementById("menu");
+document.getElementById("menuBtn").addEventListener("click", function(){ menu.classList.toggle("open"); });
+menu.addEventListener("click", function(e){ if (e.target.tagName === "A") menu.classList.remove("open"); });
+
+document.getElementById("yr").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
